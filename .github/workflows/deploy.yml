@@ -1,0 +1,24 @@
+name: Deploy to AWS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to AWS Ubuntu Server
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Conectar por SSH y ejecutar script de despliegue
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.AWS_HOST }}
+          username: ${{ secrets.AWS_USER }}
+          key: ${{ secrets.AWS_SSH_KEY }}
+          script_stop: true
+          script: |
+            cd /var/www/alpha-lash.cl
+            chmod +x deploy/deploy.sh
+            ./deploy/deploy.sh
