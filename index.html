@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpha Lash</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Principal -->
+  <title>Alpha Lash By Jocce | Extensiones de Pestañas e Insumos en San Bernardo, Santiago</title>
+  <meta name="description" content="Alpha Lash By Jocce en San Bernardo, Santiago de Chile. Tienda online y estudio profesional de extensiones de pestañas, insumos de alta gama, adhesivos y pinzas para lashistas profesionales." />
+  <meta name="keywords" content="Extensiones de pestañas San Bernardo, Lash Studio Santiago, insumos pestañas Chile, Alpha Lash By Jocce, lashista San Bernardo, pegamento pestañas profesional, pestañas volumen ruso Santiago" />
+  <meta name="author" content="Alpha Lash By Jocce" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://alpha-lash.cl" />
+
+  <!-- Georreferenciación SEO Local (San Bernardo, Santiago, Región Metropolitana, Chile) -->
+  <meta name="geo.region" content="CL-RM" />
+  <meta name="geo.placename" content="San Bernardo, Santiago, Chile" />
+  <meta name="geo.position" content="-33.5925;-70.7042" />
+  <meta name="ICBM" content="-33.5925, -70.7042" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alpha-lash.cl" />
+  <meta property="og:title" content="Alpha Lash By Jocce | Extensiones de Pestañas e Insumos en San Bernardo" />
+  <meta property="og:description" content="Venta de insumos premium para extensiones de pestañas en San Bernardo y envíos a todo Chile. Calidad profesional garantizada por Alpha Lash By Jocce." />
+  <meta property="og:locale" content="es_CL" />
+  <meta property="og:site_name" content="Alpha Lash By Jocce" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Alpha Lash By Jocce | Lash Studio & Insumos San Bernardo" />
+  <meta name="twitter:description" content="Catálogo online de extensiones de pestañas, adhesivos y herramientas para lashistas en San Bernardo, Santiago." />
+
+  <!-- Favicon SVG con monograma dorado -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Google Fonts: Montserrat (títulos de lujo) & Inter (lectura limpia MD3) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Datos Estructurados Schema.org / JSON-LD para Negocio Local y Tienda -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["BeautySalon", "Store"],
+        "@id": "https://alpha-lash.cl/#organization",
+        "name": "Alpha Lash By Jocce",
+        "alternateName": "Alpha Lash",
+        "url": "https://alpha-lash.cl",
+        "telephone": "+56951156429",
+        "priceRange": "$$",
+        "image": "https://alpha-lash.cl/favicon.svg",
+        "description": "Estudio especializado en extensiones de pestañas de alta gama y tienda de insumos profesionales para lashistas en San Bernardo, Santiago de Chile.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "San Bernardo Centro",
+          "addressLocality": "San Bernardo",
+          "addressRegion": "Región Metropolitana",
+          "addressCountry": "CL"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -33.5925,
+          "longitude": -70.7042
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "09:30",
+            "closes": "19:30"
+          }
+        ],
+        "currenciesAccepted": "CLP",
+        "paymentAccepted": "Cash, Credit Card, Bank Transfer, MercadoPago, Webpay",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Catálogo de Insumos y Servicios de Pestañas",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Aplicación de Extensiones de Pestañas"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Insumos y Adhesivos para Pestañas"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
 </head>
-<body>
-    <h1>Hola Mundo</h1>
+<body class="bg-dark-900 text-gray-100 font-sans antialiased selection:bg-gold-500 selection:text-black min-h-screen">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
