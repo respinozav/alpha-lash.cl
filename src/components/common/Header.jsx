@@ -25,9 +25,9 @@ export default function Header({
             className="flex items-center gap-3 cursor-pointer group flex-shrink-0 py-1"
           >
             <img
-              src="/logo.png"
+              src="/logo-horizontal.png"
               alt="Alpha Lash By Jocce"
-              className="h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(212,175,55,0.35)] group-hover:drop-shadow-[0_0_15px_rgba(212,175,55,0.6)] group-hover:scale-105 transition-all duration-300"
+              className="h-12 sm:h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(212,175,55,0.35)] group-hover:drop-shadow-[0_0_15px_rgba(212,175,55,0.6)] group-hover:scale-105 transition-all duration-300"
             />
           </div>
 

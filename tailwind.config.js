@@ -9,12 +9,12 @@ export default {
     extend: {
       colors: {
         dark: {
-          950: '#070707',
-          900: '#0A0A0A', // Fondo principal azabache
-          850: '#111111', // Superficies elevadas nivel 1
-          800: '#171717', // Superficies elevadas nivel 2 (tarjetas)
-          700: '#222222', // Bordes e inputs
-          600: '#2E2E2E',
+          950: '#0F0F0F',
+          900: '#161616', // Fondo principal grafito suave
+          850: '#1E1E1E', // Superficies elevadas nivel 1 (modales, dropdowns)
+          800: '#262626', // Superficies elevadas nivel 2 (tarjetas de productos, inputs)
+          700: '#383838', // Bordes sutiles
+          600: '#4A4A4A', // Separadores e iconos secundarios
         },
         gold: {
           300: '#F5DE88',

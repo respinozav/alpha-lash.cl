@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="md:col-span-1 space-y-4">
             <div className="flex items-center gap-2">
               <img
-                src="/logo.png"
+                src="/logo-horizontal.png"
                 alt="Alpha Lash By Jocce"
                 className="h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(212,175,55,0.3)]"
               />
