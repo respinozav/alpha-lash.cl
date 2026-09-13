@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import WhatsAppButton from './components/common/WhatsAppButton';
-import Hero from './components/store/Hero';
 import CategoryPills from './components/store/CategoryPills';
 import ProductGrid from './components/store/ProductGrid';
 import CartDrawer from './components/store/CartDrawer';
@@ -63,11 +62,8 @@ export default function App() {
           />
 
           <main className="flex-1">
-            {/* Banner Hero */}
-            <Hero />
-
             {/* Barra de Filtro de Categorías */}
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
               <CategoryPills
                 categories={categories}
                 selectedCategory={selectedCategory}
