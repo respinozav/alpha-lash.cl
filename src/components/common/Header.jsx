@@ -22,23 +22,13 @@ export default function Header({
           {/* LOGO OFICIAL ALPHA LASH BY JOCCE */}
           <div
             onClick={() => setCurrentView('store')}
-            className="flex items-center gap-3 cursor-pointer group flex-shrink-0"
+            className="flex items-center gap-3 cursor-pointer group flex-shrink-0 py-1"
           >
-            <div className="w-11 h-11 rounded-md3 bg-gradient-to-br from-gold-300 via-gold-500 to-amber-700 p-0.5 shadow-md group-hover:shadow-gold-glow transition-all">
-              <div className="w-full h-full bg-dark-900 rounded-[14px] flex items-center justify-center">
-                <span className="font-display font-black text-xl text-gold-400 group-hover:scale-110 transition-transform">
-                  α
-                </span>
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-bold text-lg sm:text-xl tracking-wider text-gold-gradient">
-                ALPHA LASH
-              </span>
-              <span className="text-[10px] tracking-[0.25em] text-gray-400 font-medium -mt-1">
-                BY JOCCE
-              </span>
-            </div>
+            <img
+              src="/logo.png"
+              alt="Alpha Lash By Jocce"
+              className="h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(212,175,55,0.35)] group-hover:drop-shadow-[0_0_15px_rgba(212,175,55,0.6)] group-hover:scale-105 transition-all duration-300"
+            />
           </div>
 
           {/* BARRA DE BÚSQUEDA EN TIEMPO REAL */}

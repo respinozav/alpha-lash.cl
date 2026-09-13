@@ -10,9 +10,11 @@ export default function Footer() {
           {/* COLUMNA 1: Identidad y Marca */}
           <div className="md:col-span-1 space-y-4">
             <div className="flex items-center gap-2">
-              <span className="font-display font-black text-2xl text-gold-gradient tracking-wider">
-                ALPHA LASH
-              </span>
+              <img
+                src="/logo.png"
+                alt="Alpha Lash By Jocce"
+                className="h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(212,175,55,0.3)]"
+              />
             </div>
             <p className="text-xs text-gray-400 leading-relaxed">
               Estudio especializado en extensiones de pestañas de alta gama y tienda de insumos técnicos para lashistas profesionales en Santiago de Chile.
