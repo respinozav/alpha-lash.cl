@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, Instagram, Heart, ShieldCheck } from 'lucide-react';
+import { MapPin, Phone, Clock, Instagram, ShieldCheck } from 'lucide-react';
 import WhatsAppIcon from './WhatsAppIcon';
 
 export default function Footer() {
@@ -116,8 +116,17 @@ export default function Footer() {
         {/* PIE DE PÁGINA INFERIOR */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
           <p>© {new Date().getFullYear()} Alpha Lash By Jocce. Todos los derechos reservados.</p>
-          <p className="flex items-center gap-1">
-            Diseñado para lashistas profesionales con <Heart className="w-3.5 h-3.5 text-gold-500 fill-gold-500" /> en San Bernardo, Chile
+          <p className="text-center sm:text-right">
+            Aplicación desarrollada por{' '}
+            <a
+              href="https://raevsi.cl/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold-400 hover:text-gold-300 font-medium hover:underline transition-colors"
+            >
+              RAEV Soluciones Informática SpA
+            </a>{' '}
+            | Roderick Espinoza
           </p>
         </div>
       </div>
