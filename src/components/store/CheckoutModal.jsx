@@ -6,6 +6,7 @@ import { formatCLP } from '../../services/formatters';
 import { api } from '../../services/api';
 import confetti from 'canvas-confetti';
 import { CheckCircle2, MessageCircle, MapPin, Phone, User, ShoppingBag } from 'lucide-react';
+import WhatsAppIcon from '../common/WhatsAppIcon';
 
 export default function CheckoutModal({ isOpen, onClose }) {
   const { clientUser, loginGoogle, updateClientData } = useAuth();
@@ -158,7 +159,7 @@ export default function CheckoutModal({ isOpen, onClose }) {
               rel="noopener noreferrer"
               className="w-full py-3 bg-gradient-to-r from-emerald-600 to-green-500 hover:from-emerald-500 hover:to-green-400 text-white font-bold text-xs rounded-md3 shadow-md flex items-center justify-center gap-2 transition-all"
             >
-              <MessageCircle className="w-4 h-4" />
+              <WhatsAppIcon className="w-4 h-4 fill-white" />
               <span>Confirmar Pedido por WhatsApp (+56 9 5115 6429)</span>
             </a>
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 
 export default function WhatsAppButton() {
   const [showTooltip, setShowTooltip] = useState(false);
@@ -28,11 +28,11 @@ export default function WhatsAppButton() {
         aria-label="Contactar por WhatsApp a Alpha Lash"
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
-        className="relative flex items-center justify-center w-14 h-14 bg-gradient-to-tr from-emerald-600 via-green-500 to-emerald-400 text-white rounded-full shadow-lg hover:shadow-gold-glow hover:scale-110 active:scale-95 transition-all duration-300"
+        className="relative flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:shadow-[0_6px_25px_rgba(37,211,102,0.6)] hover:scale-110 active:scale-95 transition-all duration-300"
       >
         {/* Anillo de pulso sutil */}
-        <span className="absolute -inset-1 rounded-full bg-emerald-500/30 animate-ping pointer-events-none" />
-        <MessageCircle className="w-7 h-7 fill-white/20" />
+        <span className="absolute -inset-1 rounded-full bg-[#25D366]/40 animate-ping pointer-events-none" />
+        <WhatsAppIcon className="w-8 h-8 fill-white relative z-10" />
       </a>
     </div>
   );

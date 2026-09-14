@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Clock, Instagram, Heart, ShieldCheck } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 
 export default function Footer() {
   return (
@@ -103,9 +104,9 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp Alpha Lash"
-                className="p-2 bg-dark-800 hover:bg-dark-700 text-gray-300 hover:text-emerald-400 rounded-md3 border border-dark-700 transition-colors"
+                className="p-2 bg-dark-800 hover:bg-[#25D366]/20 text-gray-300 hover:text-[#25D366] rounded-md3 border border-dark-700 hover:border-[#25D366]/40 transition-colors"
               >
-                <Phone className="w-4 h-4" />
+                <WhatsAppIcon className="w-4 h-4 fill-current" />
               </a>
             </div>
           </div>
