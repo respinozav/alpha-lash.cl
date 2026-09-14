@@ -17,7 +17,7 @@ export default function WhatsAppButton() {
           showTooltip ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-2'
         }`}
       >
-        <span>¿Dudas? Chatea con Jocce</span>
+        <span>¿Dudas?</span>
       </div>
 
       {/* Botón flotante */}
